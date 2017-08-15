@@ -5,11 +5,14 @@ import aComponent from './aComponent.jsx';
 
 class App extends React.Component {
   render () {
-    return
+    return (
         <div>
-          <p> Hello React!</p>
+            <div className="title">
+              <h1>reactCalendar</h1>
+            </div>
           <aComponent />
         </div>
+    );
   }
 }
 
