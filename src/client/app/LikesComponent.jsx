@@ -17,7 +17,7 @@ class LwesomeComponent extends React.Component {
     return (
       <div>
         Likes : <span>{this.state.likesCount}</span>
-        <div><button onClick={this.onLike}>Like Me</button></div>
+        <div><button onClick={this.onLike}>Like!</button></div>
       </div>
     );
   }
