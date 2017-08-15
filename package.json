@@ -1,0 +1,14 @@
+{
+  "name": "reactcalendar",
+  "version": "1.0.0",
+  "description": "simple calendar app using react",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Mitchell",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.5.4"
+  }
+}
