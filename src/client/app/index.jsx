@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import LikesComponent from './LikesComponent.jsx';
+import FamilyComponent from './FamilyComponent.jsx';
 
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
             <div className="title">
               <h1>reactCalendar</h1>
             </div>
-          <LikesComponent />
+          <FamilyComponent />
         </div>
     );
   }
