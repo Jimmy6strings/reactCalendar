@@ -16,6 +16,29 @@ class FamilyComponent extends React.Component {
   render() {
     return (
       <div>
+        <form>
+          <label>
+            Family Name:
+            <input type="text" name="name" />
+          </label>
+          <label>
+            address:
+            <input type="text" address="address" />
+          </label>
+          <label>
+            city:
+            <input type="text" city="city" />
+          </label>
+          <label>
+            adults:
+            <input type="text" adults="adults" />
+          </label>
+          <label>
+            children:
+            <input type="text" address="children" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
         Families : <span>{this.state.familyCount}</span>
         <div>
         <button onClick={this.onFamily}>Add Family!</button></div>

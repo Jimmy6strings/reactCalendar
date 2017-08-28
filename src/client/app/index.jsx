@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
         <div>
             <div className="title">
-              <h1>reactCalendar</h1>
+              <h1>reactSchoolRolodex</h1>
             </div>
           <FamilyComponent />
         </div>
