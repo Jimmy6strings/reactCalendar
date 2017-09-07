@@ -7,6 +7,12 @@ class FamilyComponent extends React.Component {
     this.state = {familyCount : 0};
     this.onFamily = this.onFamily.bind(this);
   }
+  addFamily (address, city, adults, children) {
+    this.address = address;
+    this.city = city;
+    this.adults = adults;
+    this.children = children;
+  }
 
   onFamily () {
     let newFamilyCount = this.state.familyCount + 1;
